@@ -129,7 +129,7 @@ main p{
     background-color: lightgray;
 }
 
-@media (max-width: 375px) and (orientation: portrait){
+@media (orientation: portrait){
     main{
         flex-direction: column;
     }
@@ -158,3 +158,4 @@ main p{
 
 
 }
+
