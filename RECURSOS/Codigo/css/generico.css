@@ -60,7 +60,7 @@ main{
     min-height: 90vh;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375px) and (orientation: portrait){
     .botones{
         width: 4vw;
         height: 5vh;
@@ -69,4 +69,5 @@ main{
     .botones *{
         font-size: 2vh;
     }
+
 }
