@@ -33,7 +33,7 @@ h3{
     width: 100%;
     height: 100%;
 
-    animation: recorrido 10s infinite linear;
+    animation: recorrido 15s infinite linear;
 }
 
 @keyframes recorrido {
@@ -210,4 +210,5 @@ img{
         from { transform: translateX(0);}
         to {transform: translateX(-66.6%);}
     }
+
 }
