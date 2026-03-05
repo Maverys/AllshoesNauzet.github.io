@@ -197,6 +197,9 @@ img{
     }
 
     #imagenes{
+        flex-flow: column nowrap;
+        gap: 4vw;
+
         width: 90%;
         max-width: none;
 
@@ -204,8 +207,8 @@ img{
     }
 
     .mini-imagen, .mini-imagen img{
-        height: 20vw;
-        width: 20vw;
+        height: 80vw;
+        width: 80vw;
     }
 
     @keyframes recorridoMovil {
@@ -214,4 +217,3 @@ img{
     }
 
 }
-
