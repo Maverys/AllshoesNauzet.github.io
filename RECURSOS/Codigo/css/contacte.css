@@ -273,7 +273,7 @@ input:not(:placeholder-shown):valid, textarea:not(:placeholder-shown):valid{
     font-size: 4vh;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 375px) and (orientation: portrait){
     main{
         padding-top: 10vh;
     }
@@ -293,4 +293,5 @@ input:not(:placeholder-shown):valid, textarea:not(:placeholder-shown):valid{
     #texto p{
         font-size: 3vh;
     }
+
 }
